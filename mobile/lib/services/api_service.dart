@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:flutter/foundation.dart';
 
 class ApiService {
-  static const String baseUrl = 'http://127.0.0.1:8001/api';
+  static const String baseUrl = 'http://127.0.0.1:8000/api';
   
   static Future<List<Map<String, dynamic>>> searchProducts(String query) async {
     try {
